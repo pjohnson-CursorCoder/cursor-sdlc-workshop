@@ -798,6 +798,33 @@ h3 {
   background: transparent;
 }
 
+/* Hero Callout - main takeaway that pops */
+.hero-callout {
+  background: linear-gradient(
+    135deg,
+    rgba(38, 139, 210, 0.15),
+    rgba(38, 139, 210, 0.05)
+  );
+  border: 2px solid rgba(38, 139, 210, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.hero-callout .hero-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.hero-callout .hero-highlight {
+  color: var(--cursor-blue);
+  font-weight: 700;
+}
+
 /* Intro Callout - prominent section intro */
 .intro-callout {
   background: linear-gradient(
