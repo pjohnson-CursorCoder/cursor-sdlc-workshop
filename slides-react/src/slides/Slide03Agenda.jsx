@@ -30,7 +30,7 @@ const Slide03Agenda = () => (
         <div className="timeline-number purple">3</div>
         <div className="timeline-content">
           <div className="timeline-title">Real-World Chaos</div>
-          <div className="timeline-desc">Compete to build the best Netflix clone</div>
+          <div className="timeline-desc">Compete to build the best LinkedIn clone from a Figma design</div>
         </div>
         <div className="timeline-duration">35 min</div>
       </div>

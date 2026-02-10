@@ -17,6 +17,8 @@ import SlideSection2Takeaway from './SlideSection2Takeaway.jsx'
 import Slide15Section3Intro from './Slide15Section3Intro.jsx'
 import Slide16Section3Rules from './Slide16Section3Rules.jsx'
 import Slide17Transformation from './Slide17Transformation.jsx'
+import SlideSection3Step1 from './SlideSection3Step1.jsx'
+import SlideSection3Step2 from './SlideSection3Step2.jsx'
 import SlideSection3Takeaway from './SlideSection3Takeaway.jsx'
 import Slide19Story from './Slide19Story.jsx'
 import Slide20Go from './Slide20Go.jsx'
@@ -41,7 +43,9 @@ export const slides = [
   { id: 17, component: Slide15Section3Intro },
   { id: 18, component: Slide16Section3Rules },
   { id: 19, component: Slide17Transformation },
-  { id: 20, component: SlideSection3Takeaway },
-  { id: 21, component: Slide19Story },
-  { id: 22, className: 'title-slide', component: Slide20Go },
+  { id: 20, component: SlideSection3Step1 },
+  { id: 21, component: SlideSection3Step2 },
+  { id: 22, component: SlideSection3Takeaway },
+  { id: 23, component: Slide19Story },
+  { id: 24, className: 'title-slide', component: Slide20Go },
 ]

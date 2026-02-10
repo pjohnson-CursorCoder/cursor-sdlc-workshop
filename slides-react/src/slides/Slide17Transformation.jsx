@@ -1,4 +1,4 @@
-import netflixScreenshot from '../assets/netflix_homepage.webp'
+import linkedoutScreenshot from '../assets/linkedout_homepage.png'
 
 const Slide17Transformation = () => (
   <>
@@ -11,31 +11,25 @@ const Slide17Transformation = () => (
       <div className="transformation-panel">
         <h3 style={{ color: 'var(--red)' }}>😬 You Start With</h3>
         <div className="ugly-site">
-          <h1>Netflix</h1>
+          <h1>LinkedOut</h1>
           <hr />
-          <p>Welcome to Netflix. Here are some movies you can watch:</p>
-          <ul>
-            <li><a href="#">The Shawshank Redemption</a> - Drama (1994)</li>
-            <li><a href="#">The Dark Knight</a> - Action (2008)</li>
-            <li><a href="#">Inception</a> - Sci-Fi (2010)</li>
-            <li><a href="#">Pulp Fiction</a> - Crime (1994)</li>
-            <li><a href="#">Forrest Gump</a> - Drama (1994)</li>
-          </ul>
-          <p>TV Shows:</p>
-          <ul>
-            <li><a href="#">Breaking Bad</a></li>
-            <li><a href="#">Stranger Things</a></li>
-            <li><a href="#">The Crown</a></li>
-          </ul>
+          <p><a href="#">Home</a> | <a href="#">My Network</a> | <a href="#">Jobs</a> | <a href="#">Messaging (3)</a></p>
           <hr />
-          <p><a href="#">Sign in</a> | <a href="#">Create account</a></p>
-          <div className="ugly-counter">Page views: 12,847</div>
+          <p><strong>My Profile</strong></p>
+          <p>[PROFILE PHOTO]<br />Sarah Chen<br />Senior Engineer @ Acme Corp</p>
+          <p>Connections: 512 | Followers: 234</p>
+          <hr />
+          <p><strong>Feed</strong></p>
+          <p>Brian McCarthy - 1st<br /><em>New Hire | Father of 5</em></p>
+          <p>Thrilled to announce I'm starting a new chapter...</p>
+          <p>[Like] [Comment] [Repost] [Send]</p>
+          <div className="ugly-counter">Post impressions: 2,103</div>
         </div>
       </div>
       <div className="transformation-panel">
         <h3 style={{ color: 'var(--green)' }}>🎉 You Build</h3>
         <div className="nice-site">
-          <img src={netflixScreenshot} alt="Netflix homepage" />
+          <img src={linkedoutScreenshot} alt="LinkedOut homepage" />
         </div>
       </div>
     </div>
