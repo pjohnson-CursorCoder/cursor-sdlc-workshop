@@ -65,6 +65,7 @@
 | Tina | Timer | Shows elapsed time since game start |
 | James | Win Animation | Confetti or celebration when all pairs are matched |
 | Pranathi | Restart Button | Button to shuffle and start a new game |
+| Ali | Sound Effects | Plays sounds when flipping cards and when pairs match |
 
 ### Task Guidelines
 
@@ -91,6 +92,7 @@
 - Timer
 - Win animation/confetti
 - Restart button
+- Sound effects
 
 ---
 
@@ -117,6 +119,11 @@
 - **Assigned to:** Pranathi
 - **Description:** Add a "New Game" or "Restart" button that reshuffles the cards and resets the game state so the player can play again.
 - **Files to modify/create:** `App.jsx` or main game component, `App.css` for button styling
+
+### Feature 5: Sound Effects
+- **Assigned to:** Ali
+- **Description:** Play a sound when a card is flipped and a different sound when a pair matches. Can use the Web Audio API or a simple audio element.
+- **Files to modify/create:** `App.jsx` or main game component, optional audio files or inline audio using Web Audio API
 
 ---
 
